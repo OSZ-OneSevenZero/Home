@@ -1,0 +1,219 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: "游ゴシック体", YuGothic,"游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  text-decoration: none;
+
+}
+}
+body{
+  padding:0;
+  margin:0;
+
+}
+
+.border{
+  margin:20px auto;
+  　
+}
+body{
+  overflow-x: hidden;
+}
+footer{
+  overflow-x: hidden;
+
+}
+@media screen and (min-width: 750px){
+  .sample2{
+    display: none;
+  }
+  header{
+
+    position: relative;
+  }
+  .menu-ct{
+    margin:3% 2%;
+    height:40px;
+    width:100%;
+    position:absolute;
+
+  }
+  .fas{
+    font-size: 40px;
+    padding-left:20px;
+  }
+  #disp-btn{
+    display:none;
+  }
+  .menu-click{
+  }
+  .sample1{
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    padding-top:20px;
+    background-color: white;
+  }
+  .sample1 h1{
+    background-color: white;
+    color:black;
+    letter-spacing: 2px;
+    font-size: 30px;
+  }
+  .sample1 a :hover{
+    opacity: 0.6;
+  }
+  #disp-btn:checked + .sample1{
+    width:100%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .logo-ct{
+    height:80px;
+    padding:5px 0 0;
+    text-align: center;
+  }
+  .head-img{
+    margin-top:20px;
+    max-width: 120px;
+  }
+
+
+  .main-img-ct{
+    text-align:center;
+  }
+  .main-img{
+    width:70%;
+  }
+  .one-seven-zero{
+    text-align: center;
+    font-size: 20px;
+    font-weight:900;
+    letter-spacing: 3px
+  }
+
+
+  .online-ct{
+    margin:20px auto;
+    width:70%;
+    position:relative;
+  }
+  .online-img-750{
+    display: none;
+  }
+
+  .online-img-1000{
+    width:100%;
+    height:100%;
+    display: block;
+  }
+  .shop{
+    position:absolute;
+    background-color: white;
+    color:black;
+    top:40%;
+    left:54%;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding:3px;
+
+  }
+  .paypal{
+    font-size: 13px;
+    top:60%;
+    left:45%;
+    position: absolute;
+    color:white;
+  }
+
+  .shop:hover{
+    opacity: 0.7;
+
+  }
+
+
+
+
+
+
+
+  .insta-word-ct{
+    width:70%;
+    height:100%;
+    text-align: center;
+    margin:0 auto;
+  }
+  .insta-main{
+
+    width:100%;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height:25px;
+  }
+
+  .fa-instagram{
+    font-size: 60px;
+  }
+  .insta-tag{
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+  }
+
+
+.insta-ct{
+
+  margin-top:50px;
+  height:100px;
+  width:100%;
+}
+
+.insta-link-ct{
+  height:100px;
+  width:49%;
+}
+
+.insta-word-ct{
+  width:49%;
+  height:100px;
+}
+.snapwidget-widget{
+  width:70%;
+}
+.insta-ct{
+  text-align: center;
+  margin-top:120px;
+}
+
+
+
+
+
+
+footer{
+  margin-top:400px;
+  height:100%;
+  width: 100%;
+  text-align: center;
+}
+.links{
+  line-height:20px;
+}
+.links p{
+  font-size: 30px;
+  color:black;
+}
+
+.hov :hover{
+  opacity: 0.5;
+}
+
+.credit-ct p{
+  font-size: 10px;
+  letter-spacing: 5px;
+}
+
+}
