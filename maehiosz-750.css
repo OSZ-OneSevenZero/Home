@@ -115,11 +115,11 @@ footer{
     background-color: white;
     color:black;
     bottom:10%;
-    left:30%;
+    left:50%;
     letter-spacing: 2px;
     font-size: 20px;
     padding:3px;
-
+    transform: translate(-50%,-50%);
   }
 
   .online-link-ct  :hover{
